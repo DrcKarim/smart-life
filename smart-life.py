@@ -4,7 +4,7 @@ def calculate_age(birth_date):
     today = datetime.today()
     age = today.year - birth_date.year
 
-    # Check if birthday has occurred this year
+    # Check if birthday has occurred this year  yes yes yes
     if (today.month, today.day) < (birth_date.month, birth_date.day):
         age -= 1
     
